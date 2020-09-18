@@ -1,4 +1,4 @@
-import store from './customStore.js.js';
+import store from './customStore.js';
 import { bugAdded, bugRemoved, bugResolved } from '../actions';
 
 const unsubscribe = store.subscribe(() => {
